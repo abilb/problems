@@ -32,7 +32,7 @@ public class PrimeFactorsTest {
     factors[3] = new Integer[0];
 
     nums[4] = 13;
-    factors[4] = new Integer[]{13};
+    factors[4] = new Integer[0];
 
     nums[5] = 84;
     factors[5] = new Integer[]{2,2,3,7};
@@ -56,59 +56,14 @@ public class PrimeFactorsTest {
       Arrays.sort( factors[0] );
       List<Integer> expected = Arrays.asList(factors[i]);
 
-      List<Integer> actual = _primeFactors.solveOptimal(num);
-      Collections.sort(actual);
+      List<Integer> actualOptimal = _primeFactors.solveOptimal(num);
+      Collections.sort(actualOptimal);
 
-      assertEquals(expected,actual,"solveOptimal("+num+")");
-    }
-  }
+      List<Integer> actualNaive = _primeFactors.solveNaive(num);
+      Collections.sort(actualNaive);
 
-  @Test
-  public void testDifferentCasesNaive(){
-    int[] nums = new int[10];
-    Integer[][] factors = new Integer[10][];
-
-    nums[0] = 100;
-    factors[0] = new Integer[]{2,2,5,5};
-
-    nums[1] = 12;
-    factors[1] = new Integer[]{2,2,3};
-
-    nums[2] = 450;
-    factors[2] = new Integer[]{2,3,3,5,5};
-
-    nums[3] = 1;
-    factors[3] = new Integer[0];
-
-    nums[4] = 13;
-    factors[4] = new Integer[0];
-
-    nums[5] = 84;
-    factors[5] = new Integer[]{2,2,3,7};
-
-    nums[7] = 118105;
-    factors[7] = new Integer[]{5,13,23,79};
-
-    nums[7] = 118105;
-    factors[7] = new Integer[]{5,13,23,79};
-
-    nums[8] = 3;
-    factors[8] = new Integer[0];
-
-    for(int i = 0; i < nums.length; i++ ){
-
-      if( factors[i] == null )
-        break;
-
-      int num = nums[i];
-      
-      Arrays.sort( factors[0] );
-      List<Integer> expected = Arrays.asList(factors[i]);
-
-      List<Integer> actual = _primeFactors.solveNaive(num);
-      Collections.sort(actual);
-
-      assertEquals(expected,actual,"solveNaive("+num+")");
+      assertEquals(expected,actualOptimal,"solveOptimal("+num+")");
+      assertEquals(expected,actualNaive,"solveNaive("+num+")");
     }
   }
 

@@ -40,7 +40,7 @@ public class PrimeFactors {
       }
     }
 
-    if(n>1)
+    if(n>1 && list.size() > 0)
       list.add(n);
 
     return list;
