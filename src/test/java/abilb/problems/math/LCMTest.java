@@ -15,7 +15,7 @@ public class LCMTest {
 
   @Test 
   public void testDifferentCases(){
-    int[][] cases = new int[4][];
+    int[][] cases = new int[20][];
 
     cases[0] = new int[]{60, 12, 15};
     cases[1] = new int[]{12, 4, 6};
@@ -23,6 +23,8 @@ public class LCMTest {
     cases[3] = new int[]{8, 2, 8};
 
     for(int[] cs: cases){
+      if( cs == null )
+        break;
       
       final int expected = cs[0];
       final int num1 = cs[1];

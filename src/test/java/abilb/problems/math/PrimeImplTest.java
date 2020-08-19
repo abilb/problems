@@ -14,7 +14,7 @@ public class PrimeImplTest {
 
   @Test
   public void testDifferentCases(){
-    int[][] cases = new int[10][];
+    int[][] cases = new int[15][];
 
     cases[0] = new int[]{60, 0};
     cases[1] = new int[]{12, 0};
@@ -28,6 +28,9 @@ public class PrimeImplTest {
     cases[9] = new int[]{25, 0};
 
     for(int[] cs: cases){
+
+      if( cs == null )
+        break;
       
       boolean expected = (cs[1]==1);
       int n = cs[0];      
