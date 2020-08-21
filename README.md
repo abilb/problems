@@ -1,5 +1,5 @@
 # Problems
-Collections of solved interview questions
+Collections of solved questions
 
 ## Arrays
 * **Maximum difference**: We are given an array of integers. We need to find out maximum value of ```arr[j]-arr[i]``` such that ```j>i```    
