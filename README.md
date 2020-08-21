@@ -8,7 +8,7 @@ Collections of solved questions
   O/P: ```8``` 
 * **Leaders in an array**
 * **Move zeros to the end**
-* **Rotate by d**
+* **Left rotate the Array by D places**
 
 
 ## To Do
