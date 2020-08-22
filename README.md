@@ -14,7 +14,7 @@ Collections of solved questions
   O/P: ```6``` 
 * **Maximum consecutive 1's in a binary Array**: Count maximum consecutive 1's in a given binary array.   
   I/P: ```[1,0,1,1,1,1,0,1,1,0,0,0,0]```   
-  O/P: ```5``` 
+  O/P: ```4``` 
 
 
 ## To Do
