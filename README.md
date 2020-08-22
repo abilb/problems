@@ -9,9 +9,12 @@ Collections of solved questions
 * **Leaders in an array**
 * **Move zeros to the end**
 * **Left rotate the Array by D places**
-* **Trapping Rain Water**: Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.  
+* **Trapping Rain Water**: Given the N non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.  
   I/P: ```[0,1,0,2,1,0,1,3,2,1,2,1]```   
   O/P: ```6``` 
+* **Maximum consecutive 1's in a binary Array**: Count maximum consecutive 1's in a given binary array.   
+  I/P: ```[1,0,1,1,1,1,0,1,1,0,0,0,0]```   
+  O/P: ```5``` 
 
 
 ## To Do
