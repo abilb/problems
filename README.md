@@ -3,7 +3,7 @@ Collections of solved questions
 
 
 ## Arrays
-* **Maximum difference**: We are given an array of integers. We need to find out maximum value of ```arr[j]-arr[i]``` such that ```j>i```    
+* **Maximum difference**: We are given an array of integers. We need to find out maximum value of ```arr[j]-arr[i]``` such that ```j>i```.     
   I/P: ```[2,3,10,6,4,8,1]```     
   O/P: ```8``` 
 * **Leaders in an array**
@@ -18,9 +18,12 @@ Collections of solved questions
 * **Maximum subarray sum**: find maximum sum of subarray(contigious elements picked from array) of given array.   
   I/P: ```[2,3,-8,7,-1,2,3]```   
   O/P: ```11``` 
-* **Longest Alternating Even Odd subarray**: find the length of the longest subarray that has alternating even odd elements    
+* **Longest Alternating Even Odd subarray**: find the length of the longest subarray that has alternating even odd elements.    
   I/P: ```[10,12,14,7,8]```   
   O/P: ```3``` [14, 7, 8]   
+* **Maximum circular subarray sum**: find a maximum circular sum subarray of a given array.  
+  I/P: ```[1,1,1,1,-3,4,-5,1,1]```   
+  O/P: ```3``` [1,1,1,1,1,1-3,4]   
 
 
 ## To Do
