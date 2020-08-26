@@ -27,6 +27,9 @@ Collections of solved questions
 * **Majority element**: Majority element is an element that appears more than n/2 times in an array of size n. Find that element in given array if it exists.  
   I/P: ```[8,3,4,8,8]```   
   O/P: ```8```   
+* **Max sum of K consecutive elements**: Given an array of integers and a number K, find the maximum sum of K consecutive elements  
+  I/P: ```[1,8,30,-5,20,7]```   
+  O/P: ```45```   
 
 
 ## To Do
