@@ -5,6 +5,14 @@ import java.lang.*;
 
 public class Utils {
 
+  public static boolean searchIntegerArray(int[] arr, int targetVal){
+    for( int num: arr )
+      if( targetVal == num )
+        return true;
+    
+    return false;
+  }
+
   public static void swapIntegersInArray3(int[] arr, int i1, int i2){
     arr[i1] = arr[i1] + arr[i2];
     arr[i2] = arr[i1] - arr[i2];
