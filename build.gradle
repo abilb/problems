@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     // https://mvnrepository.com/artifact/com.google.inject/guice
-    compile group: 'com.google.inject', name: 'guice', version: '4.2.3'
+    // compile group: 'com.google.inject', name: 'guice', version: '4.2.3'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.1.1'
