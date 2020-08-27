@@ -33,6 +33,9 @@ Collections of solved questions
 * **Find subarray with given sum**: Given an unsorted array of non-negative integers. Find if there is a subarray with given sum.      
   I/P: ```[1,4,20,3,10,5]```, Sum=```33```   
   O/P: ```Yes``` [20,3,10]   
+* **Prefix Sum**: Given a fixed array and multiple queriesof following types on the array, how to efficiently  perform the queries.      
+  I/P: ```[2,8,39,6,5,4]```, ```[[0,2],[1,3],[2,6]]```  
+  O/P: ```[13,20,27]```   
 
 
 ## To Do
