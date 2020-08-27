@@ -29,7 +29,7 @@ Collections of solved questions
   O/P: ```8```   
 * **Max sum of K consecutive elements**: Given an array of integers and a number K, find the maximum sum of K consecutive elements  
   I/P: ```[1,8,30,-5,20,7]```, K=```3```     
-  O/P: ```45```   
+  O/P: ```45``` [30,-5,20]   
 * **Find subarray with given sum**: Given an unsorted array of non-negative integers. Find if there is a subarray with given sum 
   I/P: ```[1,4,20,3,10,5]```, Sum=```33```   
   O/P: ```Yes``` [20,3,10]   
