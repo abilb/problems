@@ -34,7 +34,7 @@ Collections of solved questions
   I/P: ```[1,4,20,3,10,5]```, Sum=```33```   
   O/P: ```Yes``` [20,3,10]   
 * **Prefix Sum**: Given a fixed array and multiple queriesof following types on the array, how to efficiently  perform the queries.      
-  I/P: ```[2,8,39,6,5,4]```, ```[[0,2],[1,3],[2,6]]```  
+  I/P: f```[2,8,3,9,6,5,4]```, ```[[0,2],[1,3],[2,6]]```  
   O/P: ```[13,20,27]```   
 
 
