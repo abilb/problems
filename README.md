@@ -27,10 +27,10 @@ Collections of solved questions
 * **Majority element**: Majority element is an element that appears more than n/2 times in an array of size n. Find that element in given array if it exists.  
   I/P: ```[8,3,4,8,8]```   
   O/P: ```8```   
-* **Max sum of K consecutive elements**: Given an array of integers and a number K, find the maximum sum of K consecutive elements  
+* **Max sum of K consecutive elements**: Given an array of integers and a number K, find the maximum sum of K consecutive elements.      
   I/P: ```[1,8,30,-5,20,7]```, K=```3```     
   O/P: ```45``` [30,-5,20]   
-* **Find subarray with given sum**: Given an unsorted array of non-negative integers. Find if there is a subarray with given sum 
+* **Find subarray with given sum**: Given an unsorted array of non-negative integers. Find if there is a subarray with given sum.      
   I/P: ```[1,4,20,3,10,5]```, Sum=```33```   
   O/P: ```Yes``` [20,3,10]   
 
