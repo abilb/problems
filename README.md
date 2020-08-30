@@ -17,7 +17,7 @@ Collections of solved questions
 * **Maximum consecutive 1's in a binary Array**: Count maximum consecutive 1's in a given binary array.   
   I/P: ```[1,0,1,1,1,1,0,1,1,0,0,0,0]```   
   O/P: ```4``` 
-* **Maximum subarray sum**: find maximum sum of subarray(contigious elements picked from array) of given array.   
+* **Maximum sum of subarray**: find maximum sum of subarray(contigious elements picked from array) of given array.   
   I/P: ```[2,3,-8,7,-1,2,3]```   
   O/P: ```11``` 
 * **Longest Alternating Even Odd subarray**: find the length of the longest subarray that has alternating even odd elements.    
