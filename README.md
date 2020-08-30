@@ -7,7 +7,9 @@ Collections of solved questions
   I/P: ```[2,3,10,6,4,8,1]```     
   O/P: ```8``` 
 * **Leaders in an array**
-* **Move zeros to the end**
+* **Move zeros to the end**: Given an array of random numbers, push all zeros of given array to the end of array.     
+  I/P: ```[1,2,0,4,3,0,5,0]```     
+  O/P: ```[1,2,4,3,5,0,0,0]``` 
 * **Left rotate the Array by D places**
 * **Trapping Rain Water**: Given the N non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.  
   I/P: ```[0,1,0,2,1,0,1,3,2,1,2,1]```   
