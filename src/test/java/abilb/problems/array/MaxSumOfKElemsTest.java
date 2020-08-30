@@ -52,8 +52,7 @@ public class MaxSumOfKElemsTest {
       int k = K[i];
 
       int actual = obj.find(input, k);
-      assertEquals(expect, actual, "find(" + Arrays.toString(input) + ", " + k + ") - expected:"
-          + expect + ", actual: " + actual);
+      assertEquals(expect, actual, "find(" + Arrays.toString(input) + ", " + k + ") - expected:" + expect + ", actual: " + actual);
     }
   }
 

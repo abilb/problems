@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 public class MaximumSumOfSubarrayTest {
   @Test
   public void testVariousCases() {
-
     MaximumSumOfSubarray obj = new MaximumSumOfSubarray();
 
     int[][] cases = new int[10][];
@@ -43,7 +42,5 @@ public class MaximumSumOfSubarrayTest {
       assertEquals(expect, actual,
           "find(" + Arrays.toString(input) + ") - expected:" + expect + ", actual: " + actual);
     }
-
-
   }
 }
