@@ -25,7 +25,7 @@ Collections of solved questions
   O/P: ```3``` [14, 7, 8]   
 * **Maximum circular subarray sum**: find a maximum circular sum subarray of a given array.  
   I/P: ```[1,1,1,1,-3,4,-5,1,1]```   
-  O/P: ```3``` [1,1,1,1,1,1-3,4]   
+  O/P: ```7``` [1,1,1,1,1,1-3,4]   
 * **Majority element**: Majority element is an element that appears more than n/2 times in an array of size n. Find that element in given array if it exists.  
   I/P: ```[8,3,4,8,8]```   
   O/P: ```8```   
