@@ -7,7 +7,7 @@ Collections of solved questions
   I/P: ```[2,3,10,6,4,8,1]```     
   O/P: ```8``` 
 * **Leaders in an array**
-* **Move zeros to the end**: Given an array of random numbers, push all zeros of given array to the end of array.     
+* **Move zeros to the end**: Given an array of random numbers, push all zeros (of given array) to the end of array.     
   I/P: ```[1,2,0,4,3,0,5,0]```     
   O/P: ```[1,2,4,3,5,0,0,0]``` 
 * **Left rotate the Array by D places**
