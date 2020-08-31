@@ -5,6 +5,9 @@ Collections of solved questions
 * **Index of first occurence in sorted array**: Given an sorted array of integers with repetition. Find index of first ```X```.     
   I/P: ```[1,10,10,10,20,20,50]```, ```X=20```     
   O/P: ```4``` 
+* **Square root**: Find floor of given integer's square root.
+  I/P: ```15```     
+  O/P: ```3``` 
 
 ## Arrays
 * **Maximum difference**: We are given an array of integers. We need to find out maximum value of ```arr[j]-arr[i]``` such that ```j>i```.     
