@@ -8,6 +8,9 @@ Collections of solved questions
 * **Square root**: Find floor of given integer's square root.
   I/P: ```15```     
   O/P: ```3``` 
+* **Contains**: Does a given sorted array contain integer X.     
+  I/P: ```[1,2,3,4,5]```,```X=2```     
+  O/P: ```True``` 
 
 ## Arrays
 * **Maximum difference**: We are given an array of integers. We need to find out maximum value of ```arr[j]-arr[i]``` such that ```j>i```.     
