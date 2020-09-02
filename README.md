@@ -11,6 +11,9 @@ Collections of solved questions
 * **Contains**: Does a given sorted array contain integer X.     
   I/P: ```[1,2,3,4,5]```,```X=2```     
   O/P: ```True``` 
+* **Search in sorted rotated array**: Given sorted rotated array, find X.     
+  I/P: ```[4,5,1,2,3]```,```X=5```     
+  O/P: ```1``` 
 
 ## Arrays
 * **Maximum difference**: We are given an array of integers. We need to find out maximum value of ```arr[j]-arr[i]``` such that ```j>i```.     
